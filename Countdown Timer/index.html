@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h1 id="logo">Count<span id="blue">Down</span></h1>
+    </nav>
+    <div id="timer">
+      <div class="time-units-container">
+        <span>Days</span>
+        <input
+          type="text"
+          id="days"
+          placeholder="00"
+          class="time-units"
+          maxlength="2"
+          readonly
+        />
+      </div>
+      <span> : </span>
+      <div class="time-units-container">
+        <span>Hours</span>
+        <input
+          type="text"
+          id="hours"
+          placeholder="00"
+          class="time-units"
+          maxlength="2"
+          readonly
+        />
+      </div>
+      <span> : </span>
+      <div class="time-units-container">
+        <span>Minutes</span>
+        <input
+          type="text"
+          id="minutes"
+          placeholder="00"
+          class="time-units"
+          maxlength="2"
+          readonly
+        />
+      </div>
+      <span> : </span>
+      <div class="time-units-container">
+        <span>Seconds</span>
+        <input
+          type="text"
+          id="seconds"
+          placeholder="00"
+          class="time-units"
+          maxlength="2"
+          readonly
+        />
+      </div>
+    </div>
+    <div>
+      <button id="start" class="btn">Start</button>
+      <button id="edit" class="btn">Edit</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

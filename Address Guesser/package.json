@@ -1,0 +1,19 @@
+{
+  "name": "address-guesser",
+  "version": "1.0.0",
+  "description": "A program which finds the missing words in a seed phrase",
+  "main": "app.js",
+  "type": "module",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dev-null": "^0.1.1",
+    "ethers": "^6.10.0",
+    "log-update": "^6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kacper Tomasiak",
+  "license": "ISC"
+}
